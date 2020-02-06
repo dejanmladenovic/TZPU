@@ -25,17 +25,11 @@ namespace TZPU
         }
 
         public List<Question> _questions { get; set; }
-        public int _currentQuestion { get; set; }
-        public int _oldChild { get; set; }
-        public int _correctAnswersSecondSection { get; set; }
-        public int _correctAnswersSixthSection { get; set; }
-     
+        
 
         protected Repository()
         {
-            _correctAnswersSecondSection = 0;
-            _correctAnswersSixthSection = 0;
-            _currentQuestion = -1;
+           
             _questions = new List<Question>();
 
             ///////////////sejcuha 1 ////////////////////////////
