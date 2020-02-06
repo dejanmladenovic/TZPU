@@ -40,13 +40,29 @@ namespace TZPU.Controllers
         [HttpGet]
         public ActionResult Answer(string answer)
         {
-            //1. ispitati da li  su prosla sva pitana, ako jesu vratiti cetvrti stadijum
+            answer = "1";
+            Repository.Instance._questions[Repository.Instance._currentQuestion].CheckCorect(answer);
 
-            //2. ispitati da li je tacno odgovoreno na tri odgovora iz druge sekcije, ako nije onda idu preporuke iz drugog stadijuma uz odgovarajucu poruku u zavisnosti od broja godina 
+            if (Repository.Instance._questions.Count == Repository.Instance._currentQuestion + 1)
+            {
+                return View("../Question/FourthStage", (object)"Preporucujemo vam cetvrti stadijum");
+            }
 
-            //3. ispitati da li je tacno odgovorio na tri odgovora iz seste sekcije, ako nije onda idu preporuke iz treceg staijuma uz odgovarajucu poruku u avisnosti od broja godina,
-            //sve posle toga je cetvrti stadijum sto se proverava na pocetku
-            return View();
+            if (Repository.Instance._questions[Repository.Instance._currentQuestion+1]._stage == 3 && Repository.Instance._questions[Repository.Instance._currentQuestion]._stage == 2)
+            {
+                if (Repository.Instance._correctAnswersSecondSection <= 3)
+                    return View("../Question/SecondStage", (object)"Preporucujemo vam drugu kategoriju");
+            }
+
+            if (Repository.Instance._questions[Repository.Instance._currentQuestion+1]._stage == 7 && Repository.Instance._questions[Repository.Instance._currentQuestion]._stage == 6)
+            {
+                if (Repository.Instance._correctAnswersSixthSection <= 3)
+                    return View("../Question/ThirdStage", (object)"Preporucujemo vam trecu kategoriju");
+            }
+
+
+            Repository.Instance._currentQuestion++;
+            return View("../Question/GetQuestion", (object)Repository.Instance._questions[Repository.Instance._currentQuestion]);
         }
     }
 }

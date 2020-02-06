@@ -12,6 +12,7 @@ namespace TZPU.Entities
         public List<Data> _answers;
         public Data _partOFTheQuestion;
         public int _stage;
+        public bool _answerUser;
 
         public Question(String textQuestion, String correctAnswer, List<Data> answers, Data partOFTheQuestion, int stage)
         {
@@ -26,17 +27,27 @@ namespace TZPU.Entities
         {
             String odgovor = "";
 
-
-            foreach (Data a in _answers)
-            {
-                odgovor += _textQuestion;
-                odgovor += "           ";
-                odgovor += _correctAnswer + "          ";
-                odgovor += a.PrintQuestion();
-            }
-
-
             return odgovor;
+        }
+
+        public void  CheckCorect(String answer)
+        {
+            if(answer == _correctAnswer)
+            {
+                _answerUser = true;
+                if(_stage == 2)
+                {
+                    Repository.Instance._correctAnswersSecondSection++;
+                }
+                else if(_stage == 6)
+                {
+                    Repository.Instance._correctAnswersSixthSection++;
+                }
+            }
+            else
+            {
+                _answerUser = false;
+            }
         }
     }
 }
