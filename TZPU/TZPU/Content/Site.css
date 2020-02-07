@@ -22,3 +22,27 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.question-container{
+    text-align: center;
+}
+
+.form-group input{
+    margin: 0 auto;
+}
+
+.question-description,
+.question-answers {
+    margin: 35px 0;
+}
+
+.question-answer {
+    border: 2px solid #dadada;
+    margin: 5px;
+    border-radius: 4px !important;
+}
+
+.question-submit button {
+    font-size: 21px;
+    padding: 10px 30px;
+}

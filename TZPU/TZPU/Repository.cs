@@ -34,10 +34,10 @@ namespace TZPU
 
             ///////////////sejcuha 1 ////////////////////////////
             List<Data> odgovori = new List<Data>();
-            odgovori.Add(new Text("10"));
-            odgovori.Add(new Text("12"));
-            odgovori.Add(new Text("15"));
-            Question p1 = new Question("Pitanj 1", "1", odgovori, new Text("10"), 1);
+            odgovori.Add(new Image("birds1.jpg"));
+            odgovori.Add(new Image("birds2.jpg"));
+            odgovori.Add(new Image("birds3.jpg"));
+            Question p1 = new Question("Pronaći sliku koja sadrži isti broj ptica kao na slici.", "3", odgovori, new Image("birdsintree.jpg"), 1);
 
             _questions.Add(p1);
 
