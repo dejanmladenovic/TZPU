@@ -13,9 +13,10 @@ namespace TZPU.Entities
             _image = image;
         }
 
+
         public override string PrintQuestion()
         {
-            return _image;
+            return "<img class='question-image' src='/resources/" + _image + "'>";
         }
     }
 }

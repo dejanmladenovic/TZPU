@@ -3,5 +3,34 @@
     ViewBag.Title = "Index";
 }
 <!--Ovde treba da uzme broj godine deteta i da se pozove NumberOfYears(string years) iz question-->
-<h2>Index</h2>
+<div class="container-fluid">
+    <div class="row">
+        <div class="container question-container">
+            @if (Session["currentQuestion"] != null)
+            {
+                int i = (int)Session["currentQuestion"];
+                TZPU.Entities.Question q = Repository.Instance._questions[(int)Session["currentQuestion"]];
+                @Html.Partial("~/Views/Question/GetQuestion.cshtml", (object)Repository.Instance._questions[(int)Session["currentQuestion"]])
+            }
+            else
+            {
+                Session["currentQuestion"]=1;
+                <div class="question-text row">
+                    <div class="col-xs-12">
+                        <h3>Unesite broj godina vašeg deteta</h3>
+                    </div>
+                </div>
+                <div class="question-answers row">
+                    <div class="form-group">
+                        <input type="number" class="form-control" id="child-age" placeholder="Unesite broj godina" min="0" max="90" value="1">
+                    </div>
+                </div>
+                <div class="row question-submit">
+                    <button class="btn btn-primary" id="question-submit" type="button">Odgovori</button>
+                </div>
+            }
 
+        </div>
+    </div>
+    <script src="~/Scripts/Site.js"></script>
+</div>

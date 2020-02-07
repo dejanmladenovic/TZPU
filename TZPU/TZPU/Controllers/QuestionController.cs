@@ -18,7 +18,11 @@ namespace TZPU.Controllers
         [HttpGet]
         public ActionResult GetQuestion()
         {
-            Session["currentQuestion"] = (int)Session["currentQuestion"] + 1;
+            //Session["currentQuestion"] = (int)Session["currentQuestion"] + 1;
+            if(Session["currentQuestion"] == null)
+            {
+                Session["currentQuestion"] = 1;
+            }
             return View((object)Repository.Instance._questions[(int)Session["currentQuestion"]]);
         }
 
