@@ -15,7 +15,7 @@ namespace TZPU.Controllers
             return View();
         }
 
-        [HttpGet]
+        //[HttpGet]
         public ActionResult GetQuestion()
         {
             //Session["currentQuestion"] = (int)Session["currentQuestion"] + 1;
@@ -33,6 +33,7 @@ namespace TZPU.Controllers
             Session["currentQuestion"] = -1;
             Session["correctAnswersSecondSection"] = 0;
             Session["correctAnswersSixthSection"] = 0;
+
 
             if ((int)Session["oldChild"] <= 2)
             {
@@ -68,13 +69,17 @@ namespace TZPU.Controllers
             if (Repository.Instance._questions[(int)Session["currentQuestion"] + 1]._stage == 3 && Repository.Instance._questions[(int)Session["currentQuestion"]]._stage == 2)
             {
                 if ((int)Session["correctAnswersSecondSection"] <= 3)
+                {
                     return View("../Question/SecondStage", (object)"Preporucujemo vam drugu kategoriju");
+                }
             }
 
             if (Repository.Instance._questions[(int)Session["currentQuestion"] + 1]._stage == 7 && Repository.Instance._questions[(int)Session["currentQuestion"]]._stage == 6)
             {
                 if ((int)Session["correctAnswersSixthSection"] <= 3)
+                {
                     return View("../Question/ThirdStage", (object)"Preporucujemo vam trecu kategoriju");
+                }
             }
 
 

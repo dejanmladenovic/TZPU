@@ -6,7 +6,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="container question-container">
-            @if (Session["currentQuestion"] != null)
+            @if (Session["currentQuestion"] != null && (int)Session["currentQuestion"] != -1 &&   Session["oldChild"] !=null)
             {
                 int i = (int)Session["currentQuestion"];
                 TZPU.Entities.Question q = Repository.Instance._questions[(int)Session["currentQuestion"]];

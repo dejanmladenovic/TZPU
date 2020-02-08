@@ -225,3 +225,5 @@ C:\fax\TZPU\TZPU\TZPU\obj\Debug\TZPU.dll
 C:\fax\TZPU\TZPU\TZPU\obj\Debug\TZPU.pdb
 C:\fax\TZPU\TZPU\TZPU\obj\Debug\TZPU.Properties.Resources.resources
 C:\fax\TZPU\TZPU\TZPU\obj\Debug\TZPU.csproj.GenerateResource.cache
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\obj\Debug\TZPU.Properties.Resources.resources
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\obj\Debug\TZPU.csproj.GenerateResource.cache
