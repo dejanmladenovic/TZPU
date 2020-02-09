@@ -3,7 +3,7 @@
     ViewBag.Title = "Index";
 }
 <!--Ovde treba da uzme broj godine deteta i da se pozove NumberOfYears(string years) iz question-->
-<div class="container-fluid">
+
     <div class="row">
         <div class="container question-container">
             @if (Session["currentQuestion"] != null && (int)Session["currentQuestion"] != -1 &&   Session["oldChild"] !=null)
@@ -33,4 +33,4 @@
         </div>
     </div>
     <script src="~/Scripts/Site.js"></script>
-</div>
+
