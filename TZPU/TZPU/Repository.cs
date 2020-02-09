@@ -33,8 +33,6 @@ namespace TZPU
             _questions = new List<Question>();
 
 
-            ///////////tip testova 1////////////////////////////
-
             #region 1. tip testova
 
             List<Data> o1_1 = new List<Data>();
@@ -170,10 +168,10 @@ namespace TZPU
             _questions.Add(p2_7);
 
             List<Data> o2_8 = new List<Data>();
-            o2_8.Add(new Image("2/a10a1.png"));
-            o2_8.Add(new Image("2/a10a2.png"));
-            o2_8.Add(new Image("2/a10a3.png"));
-            o2_8.Add(new Image("2/a10a4.png"));
+            o2_8.Add(new Image("2/q10a1.png"));
+            o2_8.Add(new Image("2/q10a2.png"));
+            o2_8.Add(new Image("2/q10a3.png"));
+            o2_8.Add(new Image("2/q10a4.png"));
             Question p2_8 = new Question("Upotpuniti niz odgovarajućom slikom.", "2", o2_8, new Image("2/q10.png"), 2);
             _questions.Add(p2_8);
 
@@ -258,7 +256,7 @@ namespace TZPU
             o3_7.Add(new Text("16"));
             o3_7.Add(new Text("17"));
             o3_7.Add(new Text("18"));
-            Question p3_7 = new Question("Rešiti", "4", o3_6, new Text("26 =  ?  + 9"), 3);
+            Question p3_7 = new Question("Rešiti", "4", o3_7, new Text("26 =  ?  + 9"), 3);
             _questions.Add(p3_7);
 
             List<Data> o3_8 = new List<Data>();
@@ -277,7 +275,7 @@ namespace TZPU
             o3_9.Add(new Image("3/a3_9_3.png"));
             o3_9.Add(new Image("3/a3_9_4.png"));
             o3_9.Add(new Image("3/a3_9_5.png"));
-            Question p3_9 = new Question("Pogledajte kako se savija kvadratni komad papira i probija rupama. Izaberite sliku koja pokazuje kako ce papir izgledati kada se potpuno rasklopi.", "5", o3_9, new Image("3/q3_9.png"), 3);
+            Question p3_9 = new Question("Dati oblici imaju određeni obrazac. Izaberite odgovor koji sledi isti obrazac.", "5", o3_9, new Image("3/q3_9.png"), 3);
             _questions.Add(p3_9);
 
             List<Data> o3_10 = new List<Data>();
@@ -597,7 +595,7 @@ namespace TZPU
             o7_2.Add(new Image("7/q2a2.jpg"));
             o7_2.Add(new Image("7/q2a3.jpg"));
             o7_2.Add(new Image("7/q2a4.jpg"));
-            Question p7_2 = new Question("Ponuđene figure su povezane u nekom pogledu. Odrediti figuru iz odgovora koja se slaže sa njima.", "3", o7_2, new Image("7/q2.png"), 7);
+            Question p7_2 = new Question("Ponuđene figure su povezane u nekom pogledu. Odrediti figuru iz odgovora koja se slaže sa njima.", "3", o7_2, new Image("7/q2.jpg"), 7);
             _questions.Add(p7_2);
 
             List<Data> o7_3 = new List<Data>();
@@ -645,7 +643,7 @@ namespace TZPU
             o8_2.Add(new Image("8/q2a2.jpg"));
             o8_2.Add(new Image("8/q2a3.jpg"));
             o8_2.Add(new Image("8/q2a4.jpg"));
-            Question p8_2 = new Question("Polja u datom nizu su povezana na neki način. Naći sledece polje koje će se uklopiti u niz.", "3", o8_2, new Image("8/q2.png"), 8);
+            Question p8_2 = new Question("Polja u datom nizu su povezana na neki način. Naći sledece polje koje će se uklopiti u niz.", "3", o8_2, new Image("8/q2.jpg"), 8);
             _questions.Add(p8_2);
 
             List<Data> o8_3 = new List<Data>();
