@@ -86,5 +86,25 @@ namespace TZPU.Controllers
             Session["currentQuestion"] = (int)Session["currentQuestion"] + 1;
             return View("../Question/GetQuestion", (object)Repository.Instance._questions[(int)Session["currentQuestion"]]);
         }
+
+        public ActionResult FirstStage()
+        {
+            return View();
+        }
+
+        public ActionResult SecondStage()
+        {
+            return View();
+        }
+
+        public ActionResult ThirdStage()
+        {
+            return View();
+        }
+
+        public ActionResult FourthStage()
+        {
+            return View();
+        }
     }
 }

@@ -146,10 +146,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <None Include="Resources\birdsintree.jpg" />
-    <None Include="Resources\birds1.jpg" />
-    <None Include="Resources\birds2.jpg" />
-    <None Include="Resources\birds3.jpg" />
     <Content Include="Resources\1\20.1.png" />
     <Content Include="Resources\1\20.2.png" />
     <Content Include="Resources\1\20.3.png" />
@@ -195,6 +191,18 @@
     <Content Include="Resources\2\1.3.png" />
     <Content Include="Resources\2\1.4.png" />
     <Content Include="Resources\2\1.png" />
+    <Content Include="Resources\2\10.png" />
+    <Content Include="Resources\2\21.1.png" />
+    <Content Include="Resources\2\21.2.png" />
+    <Content Include="Resources\2\21.3.png" />
+    <Content Include="Resources\2\21.4.png" />
+    <Content Include="Resources\2\21.png" />
+    <Content Include="Resources\2\PF_Q1.png" />
+    <Content Include="Resources\2\PF_Q1A1.png" />
+    <Content Include="Resources\2\PF_Q1A2.png" />
+    <Content Include="Resources\2\PF_Q1A3.png" />
+    <Content Include="Resources\2\PF_Q1A4.png" />
+    <Content Include="Resources\2\q10.png" />
     <Content Include="Resources\2\Q107.png" />
     <Content Include="Resources\2\Q107A1.png" />
     <Content Include="Resources\2\Q107A2.png" />
@@ -205,6 +213,10 @@
     <Content Include="Resources\2\Q109A2.png" />
     <Content Include="Resources\2\Q109A3.png" />
     <Content Include="Resources\2\Q109A4.png" />
+    <Content Include="Resources\2\q10a1.png" />
+    <Content Include="Resources\2\q10a2.png" />
+    <Content Include="Resources\2\q10a3.png" />
+    <Content Include="Resources\2\q10a4.png" />
     <Content Include="Resources\2\Q15A1.png" />
     <Content Include="Resources\2\Q15A2.png" />
     <Content Include="Resources\2\Q15A3.png" />
@@ -297,6 +309,48 @@
     <Content Include="Resources\6\q6_10.PNG" />
     <Content Include="Resources\6\q6_8.PNG" />
     <Content Include="Resources\6\q6_9.PNG" />
+    <Content Include="Resources\7\equation1.png" />
+    <Content Include="Resources\7\q2.jpg" />
+    <Content Include="Resources\7\q2a1.jpg" />
+    <Content Include="Resources\7\q2a2.jpg" />
+    <Content Include="Resources\7\q2a3.jpg" />
+    <Content Include="Resources\7\q2a4.jpg" />
+    <Content Include="Resources\7\q5.jpg" />
+    <Content Include="Resources\7\q5a1.jpg" />
+    <Content Include="Resources\7\q5a2.jpg" />
+    <Content Include="Resources\7\q5a3.jpg" />
+    <Content Include="Resources\7\q5a4.jpg" />
+    <Content Include="Resources\7\q5a5.jpg" />
+    <Content Include="Resources\8\equation.png" />
+    <Content Include="Resources\8\q2.jpg" />
+    <Content Include="Resources\8\q2a1.jpg" />
+    <Content Include="Resources\8\q2a2.jpg" />
+    <Content Include="Resources\8\q2a3.jpg" />
+    <Content Include="Resources\8\q2a4.jpg" />
+    <Content Include="Resources\8\q5.jpg" />
+    <Content Include="Resources\8\q5a1.jpg" />
+    <Content Include="Resources\8\q5a2.jpg" />
+    <Content Include="Resources\8\q5a3.jpg" />
+    <Content Include="Resources\8\q5a4.jpg" />
+    <Content Include="Resources\8\q5a5.jpg" />
+    <Content Include="Resources\calm_app.jpg" />
+    <Content Include="Resources\chess1.png" />
+    <Content Include="Resources\chess2.png" />
+    <Content Include="Resources\chess3.png" />
+    <Content Include="Resources\chess4.png" />
+    <Content Include="Resources\chesseye.png" />
+    <Content Include="Resources\game1.jpg" />
+    <Content Include="Resources\game2.jpg" />
+    <Content Include="Resources\game22.jpg" />
+    <Content Include="Resources\game3.jpg" />
+    <Content Include="Resources\game4.jpg" />
+    <Content Include="Resources\math.jpg" />
+    <Content Include="Resources\math2.png" />
+    <Content Include="Resources\math3.png" />
+    <Content Include="Resources\math4.png" />
+    <Content Include="Resources\memory.jpg" />
+    <Content Include="Resources\relax_channel.png" />
+    <Content Include="Resources\sudoku.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
@@ -353,6 +407,7 @@
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>

@@ -158,10 +158,43 @@ namespace TZPU
             o2_6.Add(new Image("2/Q6A2.png"));
             o2_6.Add(new Image("2/Q6A3.png"));
             o2_6.Add(new Image("2/Q6A4.png"));
-            Question p2_6 = new Question("Slike u gornjem redu su povezane na neki način. Odabrati sliku koja je povezana sa slikom u donjem redu.", "1", o2_5, new Image("2/Q6.png"), 2);
+            Question p2_6 = new Question("Slike u gornjem redu su povezane na neki način. Odabrati sliku koja je povezana sa slikom u donjem redu.", "1", o2_6, new Image("2/Q6.png"), 2);
             _questions.Add(p2_6);
 
+            List<Data> o2_7 = new List<Data>();
+            o2_7.Add(new Text("1"));
+            o2_7.Add(new Text("2"));
+            o2_7.Add(new Text("7"));
+            o2_7.Add(new Text("8"));
+            Question p2_7 = new Question("Rešiti jednačinu.", "2", o2_7, new Image("2/10.png"), 2);
+            _questions.Add(p2_7);
+
+            List<Data> o2_8 = new List<Data>();
+            o2_8.Add(new Image("2/a10a1.png"));
+            o2_8.Add(new Image("2/a10a2.png"));
+            o2_8.Add(new Image("2/a10a3.png"));
+            o2_8.Add(new Image("2/a10a4.png"));
+            Question p2_8 = new Question("Upotpuniti niz odgovarajućom slikom.", "2", o2_8, new Image("2/q10.png"), 2);
+            _questions.Add(p2_8);
+
+            List<Data> o2_9 = new List<Data>();
+            o2_9.Add(new Image("2/21.2.png"));
+            o2_9.Add(new Image("2/21.3.png"));
+            o2_9.Add(new Image("2/21.4.png"));
+            o2_9.Add(new Image("2/21.1.png"));
+            Question p2_9 = new Question("Dati oblici prate šemu. Naći odgovaraći oblik koji se slaže sa datima.", "4", o2_9, new Image("2/21.png"), 2);
+            _questions.Add(p2_9);
+
+            List<Data> o2_10 = new List<Data>();
+            o2_10.Add(new Image("2/PF_Q1A1.png"));
+            o2_10.Add(new Image("2/PF_Q1A2.png"));
+            o2_10.Add(new Image("2/PF_Q1A3.png"));
+            o2_10.Add(new Image("2/PF_Q1A4.png"));
+            Question p2_10 = new Question("Papir je presavijan i izbušen kao što je prikazano na slici. Kako će izgledati nakon otvaranja?", "2", o2_10, new Image("2/PF_Q1.png"), 2);
+            _questions.Add(p2_10);
+
             #endregion
+
 
             #region 3-ci tip testova
             ///////////tip testova 3////////////////////////////
@@ -548,21 +581,101 @@ namespace TZPU
 
             #endregion
 
+            #region 7. tip testova
 
-            ///////////tip testova 7////////////////////////////
-            ///
-            List<Data> odgovori1 = new List<Data>();
-            odgovori1.Add(new Text("10"));
-            odgovori1.Add(new Text("12"));
-            odgovori1.Add(new Text("15"));
-            Question p2 = new Question("Pitanj 2", "2", odgovori1, new Text("10"), 7);
+            List<Data> o7_1 = new List<Data>();
+            o7_1.Add(new Text("5"));
+            o7_1.Add(new Text("4"));
+            o7_1.Add(new Text("3"));
+            o7_1.Add(new Text("2"));
+            o7_1.Add(new Text("1"));
+            Question p7_1 = new Question("Naći X tako da matematički izraz bude tačan.", "5", o7_1, new Image("7/equation1.png"), 7);
+            _questions.Add(p7_1);
 
-            _questions.Add(p2);
+            List<Data> o7_2 = new List<Data>();
+            o7_2.Add(new Image("7/q2a1.jpg"));
+            o7_2.Add(new Image("7/q2a2.jpg"));
+            o7_2.Add(new Image("7/q2a3.jpg"));
+            o7_2.Add(new Image("7/q2a4.jpg"));
+            Question p7_2 = new Question("Ponuđene figure su povezane u nekom pogledu. Odrediti figuru iz odgovora koja se slaže sa njima.", "3", o7_2, new Image("7/q2.png"), 7);
+            _questions.Add(p7_2);
 
+            List<Data> o7_3 = new List<Data>();
+            o7_3.Add(new Text("Tupom"));
+            o7_3.Add(new Text("Glasnom"));
+            o7_3.Add(new Text("Svetlom"));
+            o7_3.Add(new Text("Tihom"));
+            o7_3.Add(new Text("Mekom"));
+            Question p7_3 = new Question("Reči u prvom delu rečenice se slažu na neki način. Pronaći reč koja se uklapa u drugom delu rečenice na isti način na koji se slažu reči u prvom delu rečenice.", "1", o7_3, new Text("Odvratno je prijatnom isto što je oštro _______."), 7);
+            _questions.Add(p7_3);
 
+            List<Data> o7_4 = new List<Data>();
+            o7_4.Add(new Text("120"));
+            o7_4.Add(new Text("121"));
+            o7_4.Add(new Text("122"));
+            o7_4.Add(new Text("123"));
+            o7_4.Add(new Text("124"));
+            Question p7_4 = new Question("Odrediti broj koji je sledeći u nizu.", "3", o7_4, new Text("153  116  122  153  116  ____"), 7);
+            _questions.Add(p7_4);
 
+            List<Data> o7_5 = new List<Data>();
+            o7_5.Add(new Image("7/q5a1.jpg"));
+            o7_5.Add(new Image("7/q5a2.jpg"));
+            o7_5.Add(new Image("7/q5a3.jpg"));
+            o7_5.Add(new Image("7/q5a4.jpg"));
+            o7_5.Add(new Image("7/q5a5.jpg"));
+            Question p7_5 = new Question("Papir je presavijan i izbušen kao što je prikazano na slici. Kako će izgledati papir nakon što se otvori?", "3", o7_5, new Image("7/q5.jpg"), 7);
+            _questions.Add(p7_5);
 
-            ///////////tip testova 8////////////////////////////
+            #endregion
+
+            #region 8. tip testova
+
+            List<Data> o8_1 = new List<Data>();
+            o8_1.Add(new Text("1"));
+            o8_1.Add(new Text("2"));
+            o8_1.Add(new Text("3"));
+            o8_1.Add(new Text("4"));
+            o8_1.Add(new Text("5"));
+            Question p8_1 = new Question("Naći X tako da matematički izraz bude tačan.", "2", o8_1, new Image("8/equation.png"), 8);
+            _questions.Add(p8_1);
+
+            List<Data> o8_2 = new List<Data>();
+            o8_2.Add(new Image("8/q2a1.jpg"));
+            o8_2.Add(new Image("8/q2a2.jpg"));
+            o8_2.Add(new Image("8/q2a3.jpg"));
+            o8_2.Add(new Image("8/q2a4.jpg"));
+            Question p8_2 = new Question("Polja u datom nizu su povezana na neki način. Naći sledece polje koje će se uklopiti u niz.", "3", o8_2, new Image("8/q2.png"), 8);
+            _questions.Add(p8_2);
+
+            List<Data> o8_3 = new List<Data>();
+            o8_3.Add(new Text("Matematici"));
+            o8_3.Add(new Text("Suncu"));
+            o8_3.Add(new Text("Inžinjeringu"));
+            o8_3.Add(new Text("Religiji"));
+            o8_3.Add(new Text("Kulturi"));
+            Question p8_3 = new Question("Reči u prvom delu rečenice se slažu na neki način. Pronaći reč koja se uklapa u drugom delu rečenice na isti način na koji se slažu reči u prvom delu rečenice.", "4", o8_3, new Text("Kardiologija je srcu isto što je teologija _______."), 8);
+            _questions.Add(p8_3);
+
+            List<Data> o8_4 = new List<Data>();
+            o8_4.Add(new Text("25"));
+            o8_4.Add(new Text("36"));
+            o8_4.Add(new Text("41"));
+            o8_4.Add(new Text("44"));
+            o8_4.Add(new Text("45"));
+            Question p8_4 = new Question("Odrediti broj koji je sledeći u nizu.", "2", o8_4, new Text("121 100  81  64  49  ____"), 8);
+            _questions.Add(p8_4);
+
+            List<Data> o8_5 = new List<Data>();
+            o8_5.Add(new Image("8/q5a1.jpg"));
+            o8_5.Add(new Image("8/q5a2.jpg"));
+            o8_5.Add(new Image("8/q5a3.jpg"));
+            o8_5.Add(new Image("8/q5a4.jpg"));
+            o8_5.Add(new Image("8/q5a5.jpg"));
+            Question p8_5 = new Question("Papir je presavijan i izbušen kao što je prikazano na slici. Kako će izgledati papir nakon što se otvori?", "2", o8_5, new Image("8/q5.jpg"), 8);
+            _questions.Add(p8_5);
+
+            #endregion
 
 
         }
