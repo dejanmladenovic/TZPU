@@ -118,7 +118,7 @@ namespace TZPU
             o2_1.Add(new Image("2/sg_flashlight.gif"));
             o2_1.Add(new Image("2/sg_switch.gif"));
             o2_1.Add(new Image("2/sg_tea_pot.gif"));
-            Question p2_1 = new Question("Slike u gornjem redu su povezane na neki način. Odabrati sliku koja je povezana sa slikom u donjem redu.", "1", o2_1, new Image("2/Q8.png"), 1);
+            Question p2_1 = new Question("Slike u gornjem redu su povezane na neki način. Odabrati sliku koja je povezana sa slikom u donjem redu.", "1", o2_1, new Image("2/Q8.png"), 2);
             _questions.Add(p2_1);
 
             List<Data> o2_2 = new List<Data>();
@@ -126,8 +126,40 @@ namespace TZPU
             o2_2.Add(new Image("2/Q15A2.png"));
             o2_2.Add(new Image("2/Q15A3.png"));
             o2_2.Add(new Image("2/Q15A4.png"));
-            Question p2_2 = new Question("Milan radi u laboratoriji. Koji od predmeta bi trebao da koristi?", "1", o2_2, new Text(""), 1);
+            Question p2_2 = new Question("Milan radi u laboratoriji. Koji od predmeta bi trebao da koristi?", "1", o2_2, new Text(""), 2);
             _questions.Add(p2_2);
+
+            List<Data> o2_3 = new List<Data>(); 
+            o2_3.Add(new Image("2/1.2.png"));
+            o2_3.Add(new Image("2/1.3.png"));
+            o2_3.Add(new Image("2/1.1.png"));
+            o2_3.Add(new Image("2/1.4.png"));
+            Question p2_3 = new Question("Slek u nizu su povezane na neki način. Odabrati sliku koja je povezana sa njima.", "3", o2_3, new Image("2/1.png"), 2);
+            _questions.Add(p2_3);
+
+            List<Data> o2_4 = new List<Data>();
+            o2_4.Add(new Image("2/Q109A1.png"));
+            o2_4.Add(new Image("2/Q109A2.png"));
+            o2_4.Add(new Image("2/Q109A3.png"));
+            o2_4.Add(new Image("2/Q109A4.png"));
+            Question p2_4 = new Question("Slike u gornjem redu su povezane na neki način. Odabrati sliku koja je povezana sa slikom u donjem redu.", "2", o2_4, new Image("2/Q109.png"), 2);
+            _questions.Add(p2_4);
+
+            List<Data> o2_5 = new List<Data>();
+            o2_5.Add(new Image("2/Q107A1.png"));
+            o2_5.Add(new Image("2/Q107A2.png"));
+            o2_5.Add(new Image("2/Q107A3.png"));
+            o2_5.Add(new Image("2/Q107A4.png"));
+            Question p2_5 = new Question("Slike u gornjem redu su povezane na neki način. Odabrati sliku koja je povezana sa slikom u donjem redu.", "4", o2_5, new Image("2/Q107.png"), 2);
+            _questions.Add(p2_5);
+
+            List<Data> o2_6 = new List<Data>();
+            o2_6.Add(new Image("2/Q6A1.png"));
+            o2_6.Add(new Image("2/Q6A2.png"));
+            o2_6.Add(new Image("2/Q6A3.png"));
+            o2_6.Add(new Image("2/Q6A4.png"));
+            Question p2_6 = new Question("Slike u gornjem redu su povezane na neki način. Odabrati sliku koja je povezana sa slikom u donjem redu.", "1", o2_5, new Image("2/Q6.png"), 2);
+            _questions.Add(p2_6);
 
             #endregion
 
