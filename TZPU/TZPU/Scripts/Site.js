@@ -8,9 +8,7 @@
 
 
 function submitAnswer() {
-    $("#question-submit").attr("disabled", true);
-    $("#question-submit").html('<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>'
-        +'< span class= "sr-only" > Učitavam...</span >')
+    
 
     if ($(".answer-radio-button").length == 0) {
         $.ajax({
@@ -26,6 +24,9 @@ function submitAnswer() {
             return
         }
         else {
+            $("#question-submit").attr("disabled", true);
+            $("#question-submit").html('<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>'
+                + 'Učitavam...');
             $.ajax({
                 url: "/question/Answer?answer=" + $(".answer-radio-button:checked").attr("id"),
                 success: function (result) {

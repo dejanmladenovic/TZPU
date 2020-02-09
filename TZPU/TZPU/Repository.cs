@@ -32,19 +32,104 @@ namespace TZPU
            
             _questions = new List<Question>();
 
+
             ///////////tip testova 1////////////////////////////
-            List<Data> odgovori = new List<Data>();
-            odgovori.Add(new Image("birds1.jpg"));
-            odgovori.Add(new Image("birds2.jpg"));
-            odgovori.Add(new Image("birds3.jpg"));
-            Question p1 = new Question("Pronaći sliku koja sadrži isti broj ptica kao na slici.", "3", odgovori, new Image("birdsintree.jpg"), 1);
 
-            _questions.Add(p1);
+            #region 1. tip testova
 
+            List<Data> o1_1 = new List<Data>();
+            o1_1.Add(new Image("1/sg_sword.gif"));
+            o1_1.Add(new Image("1/sg_hat.gif"));
+            o1_1.Add(new Image("1/sg_flipflop.gif"));
+            o1_1.Add(new Image("1/sg_safety_pin.gif"));
+            Question p1_1 = new Question("Dve slike u prvoj koloni su povezane na određen način. Izabrati sliku koja upotpunjuje drugu kolonu tako da slike budu povezane kao u prvoj.", "2", o1_1, new Image("1/Q3.png"), 1);
+            _questions.Add(p1_1);
 
-            ///////////tip testova 2////////////////////////////
+            List<Data> o1_2 = new List<Data>();
+            o1_2.Add(new Image("1/39.1.png"));
+            o1_2.Add(new Image("1/39.2.png"));
+            o1_2.Add(new Image("1/39.3.png"));
+            Question p1_2 = new Question("Lorin otac je pripremio piknik za nju i njenu sestru. Odabrati sliku korpe sa 5 namirnica unutar nje.", "1", o1_2, new Text(""), 1);
+            _questions.Add(p1_2);
 
+            List<Data> o1_3 = new List<Data>();
+            o1_3.Add(new Image("1/kite.png"));
+            o1_3.Add(new Image("1/plane.png"));
+            o1_3.Add(new Image("1/rainbow.png"));
+            Question p1_3 = new Question("Koja od slika iz odgovora se slaže sa ponuđenim nizom slika.", "3", o1_3, new Image("1/39.png"), 1);
+            _questions.Add(p1_3);
 
+            List<Data> o1_4 = new List<Data>();
+            o1_4.Add(new Image("1/37.1.png"));
+            o1_4.Add(new Image("1/37.2.png"));
+            o1_4.Add(new Image("1/37.3.png"));
+            Question p1_4 = new Question("Slike u gornjem redu su povezane na neki način. Odabrati sliku koja je povezana sa slikom u donjem redu.", "3", o1_4, new Image("1/37.png"), 1);
+            _questions.Add(p1_4);
+
+            List<Data> o1_5 = new List<Data>();
+            o1_5.Add(new Image("1/22.1.png"));
+            o1_5.Add(new Image("1/22.2.png"));
+            o1_5.Add(new Image("1/22.3.png"));
+            Question p1_5 = new Question("Slike u gornjem redu su povezane na neki način. Odabrati sliku koja je povezana sa slikom u donjem redu.", "1", o1_5, new Image("1/22.png"), 1);
+            _questions.Add(p1_5);
+
+            List<Data> o1_6 = new List<Data>();
+            o1_6.Add(new Image("1/train1.png"));
+            o1_6.Add(new Image("1/train2.png"));
+            o1_6.Add(new Image("1/train3.png"));
+            o1_6.Add(new Image("1/train4.png"));
+            Question p1_6 = new Question("Odabrati sliku koja popounjava niz.", "4", o1_6, new Image("1/train0.png"), 1);
+            _questions.Add(p1_6);
+
+            List<Data> o1_7 = new List<Data>();
+            o1_7.Add(new Image("1/calc1.png"));
+            o1_7.Add(new Image("1/calc2.png"));
+            o1_7.Add(new Image("1/calc3.png"));
+            Question p1_7 = new Question("Odabrati sliku koja popounjava niz.", "2", o1_7, new Image("1/calc0.png"), 1);
+            _questions.Add(p1_7);
+
+            List<Data> o1_8 = new List<Data>();
+            o1_8.Add(new Image("1/20.1.png"));
+            o1_8.Add(new Image("1/20.2.png"));
+            o1_8.Add(new Image("1/20.3.png"));
+            Question p1_8 = new Question("Odabrati kako će papir izgledati nakon otvaranja.", "1", o1_8, new Image("1/20.png"), 1);
+            _questions.Add(p1_8);
+
+            List<Data> o1_9 = new List<Data>();
+            o1_9.Add(new Image("1/26.1.png"));
+            o1_9.Add(new Image("1/26.2.png"));
+            o1_9.Add(new Image("1/26.3.png"));
+            Question p1_9 = new Question("Odabrati kako će papir izgledati nakon otvaranja.", "2", o1_9, new Image("1/26.png"), 1);
+            _questions.Add(p1_9);
+
+            List<Data> o1_10 = new List<Data>();
+            o1_10.Add(new Image("1/23.1.png"));
+            o1_10.Add(new Image("1/23.2.png"));
+            o1_10.Add(new Image("1/23.3.png"));
+            Question p1_10 = new Question("Odabrati sliku koja se slaže sa ponuđenim nizom slika.", "2", o1_10, new Image("1/23.png"), 1);
+            _questions.Add(p1_10);
+
+            #endregion
+
+            #region 2. tip testova
+
+            List<Data> o2_1 = new List<Data>();
+            o2_1.Add(new Image("2/sg_candle.gif"));
+            o2_1.Add(new Image("2/sg_flashlight.gif"));
+            o2_1.Add(new Image("2/sg_switch.gif"));
+            o2_1.Add(new Image("2/sg_tea_pot.gif"));
+            Question p2_1 = new Question("Slike u gornjem redu su povezane na neki način. Odabrati sliku koja je povezana sa slikom u donjem redu.", "1", o2_1, new Image("2/Q8.png"), 1);
+            _questions.Add(p2_1);
+
+            List<Data> o2_2 = new List<Data>();
+            o2_2.Add(new Image("2/Q15A1.png"));
+            o2_2.Add(new Image("2/Q15A2.png"));
+            o2_2.Add(new Image("2/Q15A3.png"));
+            o2_2.Add(new Image("2/Q15A4.png"));
+            Question p2_2 = new Question("Milan radi u laboratoriji. Koji od predmeta bi trebao da koristi?", "1", o2_2, new Text(""), 1);
+            _questions.Add(p2_2);
+
+            #endregion
 
             #region 3-ci tip testova
             ///////////tip testova 3////////////////////////////

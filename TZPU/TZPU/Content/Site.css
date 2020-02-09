@@ -40,9 +40,23 @@ textarea {
     border: 2px solid #dadada;
     margin: 5px;
     border-radius: 4px !important;
+    max-width: 140px;
+}
+
+.question-answer img{
+    width: 100%;
 }
 
 .question-submit button {
     font-size: 21px;
     padding: 10px 30px;
+}
+
+.question-image{
+    max-width: 600px;
+    width: 100%;
+}
+
+.btn-group-toggle{
+    display: flex;
 }
