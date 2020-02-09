@@ -1,0 +1,229 @@
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\TZPU.dll.config
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\TZPU.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\TZPU.pdb
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\csc.exe
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\csc.exe.config
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\csc.rsp
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\csi.exe
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\csi.exe.config
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\csi.rsp
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\System.AppContext.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\System.Console.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\System.IO.Compression.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\System.Security.Claims.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\System.ValueTuple.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\vbc.exe
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\vbc.exe.config
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\vbc.rsp
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\VBCSCompiler.exe
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\Antlr3.Runtime.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\Newtonsoft.Json.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\System.Web.Helpers.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\System.Web.Mvc.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\System.Web.Optimization.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\System.Web.Razor.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\System.Web.WebPages.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\System.Web.WebPages.Razor.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\WebGrease.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\System.Web.Helpers.xml
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\System.Web.Mvc.xml
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\System.Web.Optimization.xml
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\System.Web.Razor.xml
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\System.Web.WebPages.xml
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\System.Web.WebPages.Razor.xml
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\Newtonsoft.Json.xml
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\Antlr3.Runtime.pdb
+C:\Users\Dejan\source\repos\TZPU\TZPU\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Dejan\source\repos\TZPU\TZPU\obj\Debug\TZPU.csprojAssemblyReference.cache
+C:\Users\Dejan\source\repos\TZPU\TZPU\obj\Debug\TZPU.csproj.CopyComplete
+C:\Users\Dejan\source\repos\TZPU\TZPU\obj\Debug\TZPU.dll
+C:\Users\Dejan\source\repos\TZPU\TZPU\obj\Debug\TZPU.pdb
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\TZPU.dll.config
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\TZPU.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\TZPU.pdb
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\csc.exe
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\csc.exe.config
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\csc.rsp
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\csi.exe
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\csi.exe.config
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\csi.rsp
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\Microsoft.Managed.Core.targets
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\System.AppContext.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\System.Collections.Immutable.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\System.Console.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\System.IO.Compression.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\System.IO.FileSystem.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\System.IO.Pipes.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\System.Reflection.Metadata.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\System.Security.AccessControl.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\System.Security.Claims.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\System.Security.Principal.Windows.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\System.ValueTuple.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\System.Xml.XmlDocument.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\System.Xml.XPath.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\vbc.exe
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\vbc.exe.config
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\vbc.rsp
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\VBCSCompiler.exe
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\roslyn\VBCSCompiler.exe.config
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\Antlr3.Runtime.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\Microsoft.Web.Infrastructure.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\Newtonsoft.Json.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\System.Web.Helpers.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\System.Web.Mvc.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\System.Web.Optimization.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\System.Web.Razor.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\System.Web.WebPages.Deployment.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\System.Web.WebPages.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\System.Web.WebPages.Razor.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\WebGrease.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\System.Web.Helpers.xml
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\System.Web.Mvc.xml
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\System.Web.Optimization.xml
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\System.Web.Razor.xml
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\System.Web.WebPages.xml
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\System.Web.WebPages.Deployment.xml
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\System.Web.WebPages.Razor.xml
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\Newtonsoft.Json.xml
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\Antlr3.Runtime.pdb
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\obj\Debug\TZPU.csprojAssemblyReference.cache
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\obj\Debug\TZPU.csproj.CopyComplete
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\obj\Debug\TZPU.dll
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\obj\Debug\TZPU.pdb
+C:\fax\TZPU\TZPU\TZPU\bin\TZPU.dll.config
+C:\fax\TZPU\TZPU\TZPU\bin\TZPU.dll
+C:\fax\TZPU\TZPU\TZPU\bin\TZPU.pdb
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\csc.exe
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\csc.exe.config
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\csc.rsp
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\csi.exe
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\csi.exe.config
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\csi.rsp
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\Microsoft.Managed.Core.targets
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\System.AppContext.dll
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\System.Collections.Immutable.dll
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\System.Console.dll
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\System.IO.Compression.dll
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\System.IO.FileSystem.dll
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\System.IO.Pipes.dll
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\System.Reflection.Metadata.dll
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\System.Security.AccessControl.dll
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\System.Security.Claims.dll
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\System.Security.Principal.Windows.dll
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\System.ValueTuple.dll
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\System.Xml.XmlDocument.dll
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\System.Xml.XPath.dll
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\vbc.exe
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\vbc.exe.config
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\vbc.rsp
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\VBCSCompiler.exe
+C:\fax\TZPU\TZPU\TZPU\bin\roslyn\VBCSCompiler.exe.config
+C:\fax\TZPU\TZPU\TZPU\bin\Antlr3.Runtime.dll
+C:\fax\TZPU\TZPU\TZPU\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\fax\TZPU\TZPU\TZPU\bin\Microsoft.Web.Infrastructure.dll
+C:\fax\TZPU\TZPU\TZPU\bin\Newtonsoft.Json.dll
+C:\fax\TZPU\TZPU\TZPU\bin\System.Web.Helpers.dll
+C:\fax\TZPU\TZPU\TZPU\bin\System.Web.Mvc.dll
+C:\fax\TZPU\TZPU\TZPU\bin\System.Web.Optimization.dll
+C:\fax\TZPU\TZPU\TZPU\bin\System.Web.Razor.dll
+C:\fax\TZPU\TZPU\TZPU\bin\System.Web.WebPages.Deployment.dll
+C:\fax\TZPU\TZPU\TZPU\bin\System.Web.WebPages.dll
+C:\fax\TZPU\TZPU\TZPU\bin\System.Web.WebPages.Razor.dll
+C:\fax\TZPU\TZPU\TZPU\bin\WebGrease.dll
+C:\fax\TZPU\TZPU\TZPU\bin\System.Web.Helpers.xml
+C:\fax\TZPU\TZPU\TZPU\bin\System.Web.Mvc.xml
+C:\fax\TZPU\TZPU\TZPU\bin\System.Web.Optimization.xml
+C:\fax\TZPU\TZPU\TZPU\bin\System.Web.Razor.xml
+C:\fax\TZPU\TZPU\TZPU\bin\System.Web.WebPages.xml
+C:\fax\TZPU\TZPU\TZPU\bin\System.Web.WebPages.Deployment.xml
+C:\fax\TZPU\TZPU\TZPU\bin\System.Web.WebPages.Razor.xml
+C:\fax\TZPU\TZPU\TZPU\bin\Newtonsoft.Json.xml
+C:\fax\TZPU\TZPU\TZPU\bin\Antlr3.Runtime.pdb
+C:\fax\TZPU\TZPU\TZPU\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\fax\TZPU\TZPU\TZPU\obj\Debug\TZPU.csprojAssemblyReference.cache
+C:\fax\TZPU\TZPU\TZPU\obj\Debug\TZPU.csproj.CopyComplete
+C:\fax\TZPU\TZPU\TZPU\obj\Debug\TZPU.dll
+C:\fax\TZPU\TZPU\TZPU\obj\Debug\TZPU.pdb
+C:\fax\TZPU\TZPU\TZPU\obj\Debug\TZPU.Properties.Resources.resources
+C:\fax\TZPU\TZPU\TZPU\obj\Debug\TZPU.csproj.GenerateResource.cache
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\obj\Debug\TZPU.Properties.Resources.resources
+E:\fax\IV godina\VII semestar\Tehnologije za podrsku ucenju\TZPU\TZPU\TZPU\obj\Debug\TZPU.csproj.GenerateResource.cache

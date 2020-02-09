@@ -1,0 +1,109 @@
+﻿body {
+    padding-top: 50px;
+    
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    /*padding-left: 40px;*/
+    padding-right: 40px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 20px black;
+    min-height: 100vh;
+}
+
+hr {
+    border-top: 2px solid #d4d4d4;
+    width: 100%;
+}
+
+.clearfix{
+    clear: both;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.question-container{
+    text-align: center;
+}
+
+.form-group input{
+    margin: 0 auto;
+}
+
+.question-description,
+.question-answers {
+    margin: 35px 0;
+}
+
+.question-answer {
+    border: 2px solid #ababab;
+    margin: 5px;
+    border-radius: 4px !important;
+    max-width: 140px;
+}
+
+.question-answer.active {
+    border: 4px solid #327ab7;
+}
+
+.question-answer img {
+    width: 100%;
+}
+
+.question-submit button {
+    font-size: 21px;
+    padding: 10px 30px;
+}
+
+.question-image{
+    max-width: 600px;
+    width: 100%;
+}
+
+.image-inline {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    max-width: 300px;
+    width: 100%;
+}
+
+.image-w-100 {
+    width: 100%;
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 700px;
+    display: block;
+}
+
+.full-width{
+    text-align: justify;
+}
+
+.image-border {
+    border: 2px solid #368292;
+    border-radius: 11px;
+    overflow: hidden;
+}
+
+.page-header-text {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.page-header-text h2{
+    font-weight: 700;
+}
