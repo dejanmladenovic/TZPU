@@ -33,10 +33,46 @@ namespace TZPU
             _questions = new List<Question>();
 
             #region nulti tip testova
-            List<Data> o0_6 = new List<Data>();
-            o0_6.Add(new Image("0/a0_6_1.png"));
+
+            List<Data> o0_1 = new List<Data>();
+            o0_1.Add(new Image("0/15.1.png"));
+            o0_1.Add(new Image("0/15.2.png"));
+            o0_1.Add(new Image("0/15.3.png"));
+            Question p0_1 = new Question("Slike u gornjem redu su povezane na neki način. Odabrati sliku koja je povezana sa slikom u donjem redu.", "1", o0_1, new Image("0/15.png"), 0);
+            _questions.Add(p0_1);
+
+            List<Data> o0_2 = new List<Data>();
+            o0_2.Add(new Image("0/37.1.png"));
+            o0_2.Add(new Image("0/37.2.png"));
+            o0_2.Add(new Image("0/37.3.png"));
+            Question p0_2 = new Question("Na putu kući Ana je videla životinju koja nosi kuću sa sobom gde ide. Koju je životinju videla Ana?", "3", o0_2, new Text(""), 0);
+            _questions.Add(p0_2);
+
+            List<Data> o0_3 = new List<Data>();
+            o0_3.Add(new Image("0/3.1.png"));
+            o0_3.Add(new Image("0/3.2.png"));
+            o0_3.Add(new Image("0/3.3.png"));
+            Question p0_3 = new Question("Odabrati predmet koji se slaže sa predmetima u nizu.", "3", o0_3, new Image("0/3.png"), 0);
+            _questions.Add(p0_3);
+
+            List<Data> o0_4 = new List<Data>();
+            o0_4.Add(new Image("0/56.1.png"));
+            o0_4.Add(new Image("0/56.3.png"));
+            o0_4.Add(new Image("0/56.2.png"));
+            Question p0_4 = new Question("Koja od ponuđenih slika se uklapa u niz.", "2", o0_4, new Image("0/56.png"), 0);
+            _questions.Add(p0_4);
+
+            List<Data> o0_5 = new List<Data>();
+            o0_5.Add(new Image("0/54.1.png"));
+            o0_5.Add(new Image("0/54.2.png"));
+            o0_5.Add(new Image("0/54.3.png"));
+            Question p0_5 = new Question("Koja od ponuđenih slika se uklapa u niz.", "3", o0_5, new Image("0/54.png"), 0);
+            _questions.Add(p0_5);
+
+            List<Data> o0_6 = new List<Data>();   
             o0_6.Add(new Image("0/a0_6_2.png"));
             o0_6.Add(new Image("0/a0_6_3.png"));
+            o0_6.Add(new Image("0/a0_6_1.png"));
             Question p0_6 = new Question("Slike u gornjem redu su povezane na neki način. Odabrati sliku koja je povezana sa slikom u donjem redu.", "1", o0_6, new Image("0/q0_6.png"), 0);
             _questions.Add(p0_6);
 

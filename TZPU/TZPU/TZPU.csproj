@@ -146,6 +146,13 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Resources\0\15.1.png" />
+    <Content Include="Resources\0\15.2.png" />
+    <Content Include="Resources\0\15.3.png" />
+    <Content Include="Resources\0\15.png" />
+    <Content Include="Resources\0\37.1.png" />
+    <Content Include="Resources\0\37.2.png" />
+    <Content Include="Resources\0\37.3.png" />
     <Content Include="Resources\0\a0_10_1.PNG" />
     <Content Include="Resources\0\a0_10_2.PNG" />
     <Content Include="Resources\0\a0_10_3.PNG" />
