@@ -32,6 +32,44 @@ namespace TZPU
            
             _questions = new List<Question>();
 
+            #region nulti tip testova
+            List<Data> o0_6 = new List<Data>();
+            o0_6.Add(new Image("0/a0_6_1.png"));
+            o0_6.Add(new Image("0/a0_6_2.png"));
+            o0_6.Add(new Image("0/a0_6_3.png"));
+            Question p0_6 = new Question("Slike u gornjem redu su povezane na neki način. Odabrati sliku koja je povezana sa slikom u donjem redu.", "1", o0_6, new Image("0/q0_6.png"), 0);
+            _questions.Add(p0_6);
+
+
+            List<Data> o0_7 = new List<Data>();
+            o0_7.Add(new Image("0/a0_7_1.png"));
+            o0_7.Add(new Image("0/a0_7_2.png"));
+            o0_7.Add(new Image("0/a0_7_3.png"));
+            Question p0_7 = new Question("Izaberite odgovor koji upotpunjuje obrazac.", "1", o0_7, new Image("0/q0_7.png"), 0);
+            _questions.Add(p0_7);
+
+            List<Data> o0_8 = new List<Data>();
+            o0_8.Add(new Image("0/a0_8_1.png"));
+            o0_8.Add(new Image("0/a0_8_2.png"));
+            o0_8.Add(new Image("0/a0_8_3.png"));
+            Question p0_8 = new Question("Dati oblici imaju određeni obrazac. Izaberite odgovor koji sledi isti obrazac.", "2", o0_8, new Image("0/q0_8.png"), 0);
+            _questions.Add(p0_8);
+
+            List<Data> o0_9 = new List<Data>();
+            o0_9.Add(new Image("0/a0_9_1.png"));
+            o0_9.Add(new Image("0/a0_9_2.png"));
+            o0_9.Add(new Image("0/a0_9_3.png"));
+            Question p0_9 = new Question("Odabrati kako će papir izgledati nakon otvaranja.", "3", o0_9, new Image("0/q0_9.png"), 0);
+            _questions.Add(p0_9);
+
+            List<Data> o0_10 = new List<Data>();
+            o0_10.Add(new Image("0/a0_10_1.png"));
+            o0_10.Add(new Image("0/a0_10_2.png"));
+            o0_10.Add(new Image("0/a0_10_3.png"));
+            Question p0_10 = new Question("Slike u gornjem redu su povezane na neki način. Odabrati sliku koja je povezana sa slikom u donjem redu.", "1", o0_10, new Image("0/q0_10.png"), 0);
+            _questions.Add(p0_10);
+
+            #endregion
 
             #region 1. tip testova
 
