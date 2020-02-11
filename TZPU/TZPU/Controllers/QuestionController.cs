@@ -162,7 +162,7 @@ namespace TZPU.Controllers
             {
                 if ((int)Session["correctAnswersSeventhSection"] <= 3)
                 {
-                    return View("../Question/ThirdStage", (object)"Preporucujemo vam trecu kategoriju");
+                    return View("../Question/FourthStage", (object)"Preporucujemo vam cetvrti stadijum");
                 }
             }
 
