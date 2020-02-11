@@ -45,7 +45,7 @@ namespace TZPU
             o0_2.Add(new Image("0/37.1.png"));
             o0_2.Add(new Image("0/37.2.png"));
             o0_2.Add(new Image("0/37.3.png"));
-            Question p0_2 = new Question("Na putu kući Ana je videla životinju koja nosi kuću sa sobom gde ide. Koju je životinju videla Ana?", "3", o0_2, new Text(""), 0);
+            Question p0_2 = new Question("Na putu kući Ana je videla životinju koja nosi kuću sa sobom gde ide. Koju je životinju videla Ana?", "1", o0_2, new Text(""), 0);
             _questions.Add(p0_2);
 
             List<Data> o0_3 = new List<Data>();
@@ -70,9 +70,9 @@ namespace TZPU
             _questions.Add(p0_5);
 
             List<Data> o0_6 = new List<Data>();   
+            o0_6.Add(new Image("0/a0_6_1.png"));
             o0_6.Add(new Image("0/a0_6_2.png"));
             o0_6.Add(new Image("0/a0_6_3.png"));
-            o0_6.Add(new Image("0/a0_6_1.png"));
             Question p0_6 = new Question("Slike u gornjem redu su povezane na neki način. Odabrati sliku koja je povezana sa slikom u donjem redu.", "1", o0_6, new Image("0/q0_6.png"), 0);
             _questions.Add(p0_6);
 
@@ -142,7 +142,7 @@ namespace TZPU
             o1_5.Add(new Image("1/22.1.png"));
             o1_5.Add(new Image("1/22.2.png"));
             o1_5.Add(new Image("1/22.3.png"));
-            Question p1_5 = new Question("Slike u gornjem redu su povezane na neki način. Odabrati sliku koja je povezana sa slikom u donjem redu.", "1", o1_5, new Image("1/22.png"), 1);
+            Question p1_5 = new Question("Slike u gornjem redu su povezane na neki način. Odabrati sliku koja je povezana sa slikom u donjem redu.", "3", o1_5, new Image("1/22.png"), 1);
             _questions.Add(p1_5);
 
             List<Data> o1_6 = new List<Data>();
@@ -178,7 +178,7 @@ namespace TZPU
             o1_10.Add(new Image("1/23.1.png"));
             o1_10.Add(new Image("1/23.2.png"));
             o1_10.Add(new Image("1/23.3.png"));
-            Question p1_10 = new Question("Odabrati sliku koja se slaže sa ponuđenim nizom slika.", "2", o1_10, new Image("1/23.png"), 1);
+            Question p1_10 = new Question("Odabrati sliku koja se slaže sa ponuđenim nizom slika.", "1", o1_10, new Image("1/23.png"), 1);
             _questions.Add(p1_10);
 
             #endregion
@@ -198,7 +198,7 @@ namespace TZPU
             o2_2.Add(new Image("2/Q15A2.png"));
             o2_2.Add(new Image("2/Q15A3.png"));
             o2_2.Add(new Image("2/Q15A4.png"));
-            Question p2_2 = new Question("Milan radi u laboratoriji. Koji od predmeta bi trebao da koristi?", "1", o2_2, new Text(""), 2);
+            Question p2_2 = new Question("Milan radi u laboratoriji. Koji od predmeta bi trebao da koristi?", "2", o2_2, new Text(""), 2);
             _questions.Add(p2_2);
 
             List<Data> o2_3 = new List<Data>(); 
